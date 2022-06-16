@@ -7,7 +7,7 @@ This command will log all the past commits along with meta data such as username
 git log
 ```
 
-__________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________
 
 
 ## log options :
@@ -29,6 +29,17 @@ git log --all
 ```
 ```
 git log -a
+```
+
+- --patch/ -p :
+
+This command will log all the past commits along with the differnce in files compare to previous commits
+
+```
+git log --patch
+```
+```
+git log -p
 ```
 
 - --author :
@@ -99,7 +110,7 @@ git log --format=full
 git log --format=fuller
 ```
 
-__________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________
 
 
 ## command to log commit based on <tree-ish>(file name, SHA value, branch name, tag name, HEAD, HEAD accenstry) :
@@ -145,38 +156,18 @@ This command will show all commits starting from the nth parent commit to which 
 ```
 git log HEAD^^^
 ```
+  
 
+_______________________________________________________________________________________________________________________________________
+  
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## command to see/ log commit along with difference :  
+    
+This command will show info about given <tree-ish> commit along with differnce of current commit with previous commit. If <tree-ish> not given then by default HEAD of current branch will be considered
+  
+```
+git show  <HEAD/ SHA value/ tag/ branch/ accenstry>
+```
+  
 
