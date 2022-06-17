@@ -23,3 +23,10 @@ git fetch --prune
 ```
 git fetch -p
 ```
+
+Run below commands to set configuration for fetch with prune option enable
+
+```
+git config fetch.prune true
+```
+
