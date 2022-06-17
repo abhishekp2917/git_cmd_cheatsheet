@@ -67,7 +67,7 @@ This command is for giving single-line/ multi-line message as it will open defau
 git commit
 ```
 
-### Below commands will commit all the files present in staging index as well as working directory
+### Below commands will commit all the files present in staging index as well as working directory but not untracked files.
 
 These commands are for giving single-line message in git bash itself
 
