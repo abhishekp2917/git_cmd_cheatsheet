@@ -7,7 +7,7 @@ git pull <remote name> <remote branch name>
 ```
 ```
 git pull <remote URL> <remote branch name>
-
+```
 
 These commands will pull the remote changes to loacl repo if current branch is set for tracking remote branch
 
