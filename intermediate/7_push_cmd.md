@@ -38,9 +38,16 @@ This command will unset the upstream for tracking remote branch
 git branch --unset-upstream <tracking branch name>
 ```
 
+## command to push local commit forcefully :
 
+These commands will forcefully push the local repo to remote repo which makes local and remote repo identical
 
-
+```
+git push --force <remote name> <branch name>
+```
+```
+git push -f <remote name> <branch name>
+```
 
 
 
