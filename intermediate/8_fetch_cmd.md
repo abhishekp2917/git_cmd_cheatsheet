@@ -8,15 +8,18 @@ git fetch <remote name>
 ```
 git fetch <remote URL>
 ```
-
-These command will fetch changes only if the tracking branch is setup
-
 ```
 git fetch
 ```
 
-Run below commands to fetch any changes and remove remote branch from local repo it that branch has deleted from remote repo
+Run below commands to fetch any changes and remove deleted remote branch from local repo
 
+```
+git fetch <remote name> --prune
+```
+```
+git fetch <remote URL> -p
+```
 ```
 git fetch --prune
 ```
