@@ -14,3 +14,38 @@ git push --set-upstream <remote name> <branch name>
 ```
 git push -u <remote name> <branch name>
 ```
+
+Run below command to push changes of current branch to remote repo if upstream is set for tracking remote branch by current branch
+
+```
+git push 
+```
+
+## command to set and unset upstream for tracking remote branch :
+
+These commands will set the upstream for tracking remote branch
+
+```
+git branch --set-upstream-to <remote name>/<remote branch name> <tracking branch name>
+```
+```
+git branch -u <remote name>/<remote branch name> <tracking branch name>
+```
+
+This command will unset the upstream for tracking remote branch
+
+```
+git branch --unset-upstream <tracking branch name>
+```
+
+
+
+
+
+
+
+
+
+
+
+
