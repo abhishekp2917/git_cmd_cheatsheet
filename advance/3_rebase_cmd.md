@@ -113,8 +113,25 @@ git rebase -i <base branch> <branch to be rebased>
 git rebase -i --onto <base branch name> <upstream branch> <branch name which is to be rebased>
 ```
 
+_________________________________________________________________________________________________________________________________
 
 
+## command to rebase while pulling from remote repository :
+
+These commands will rebase the tracking branch at the tip of the upstream branch (branch to which tracking branch is tracking) 
+
+```
+git pull --rebase 
+```
+```
+git pull -r
+```
+
+This command will rebase the tracking branch interactively (interactive rebase) at the tip of the upstream branch so that we can edit the commits of the tracking branch
+
+```
+git pull --rebase=interactive
+```
 
 
 
